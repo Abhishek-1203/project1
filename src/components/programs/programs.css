@@ -7,11 +7,11 @@
 }
 
 .courses > * {
-    flex: 1 1 calc(50% - 1rem); /* 2 items per row */
+    flex: 1 1 calc(50% - 1rem);
 }
 
 @media screen and (min-width: 700px) {
     .courses > * {
-        flex: 1 1 22%; /* Adjust as needed for 4 per row or so on larger screens */
+        flex: 1 1 22%; 
     }
 }
