@@ -1,0 +1,17 @@
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.courses > * {
+    flex: 1 1 calc(50% - 1rem); /* 2 items per row */
+}
+
+@media screen and (min-width: 700px) {
+    .courses > * {
+        flex: 1 1 22%; /* Adjust as needed for 4 per row or so on larger screens */
+    }
+}
