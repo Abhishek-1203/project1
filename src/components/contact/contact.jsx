@@ -36,8 +36,6 @@ export default function Contact() {
                     <ul>
                         <li>✉️Email: slnsoft-tech@gmail.com</li>
                         <br />
-                        <li>📞Mob: 9391573737</li>
-                        <br />
                         <li>📍Premium Honda showroom opposite <br />Amarapuram-515281</li>
                     </ul>
 
