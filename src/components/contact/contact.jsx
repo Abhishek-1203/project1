@@ -8,7 +8,7 @@ export default function Contact() {
         setResult("Sending....");
         const formData = new FormData(event.target);
 
-        formData.append("access_key", "33d37e74-ee91-41bf-8dd8-a08a2df538ae");
+        formData.append("access_key", "9f6e9fdd-9108-4eec-ba01-cb69c46eccce");
 
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
@@ -34,7 +34,7 @@ export default function Contact() {
                         We're here to help! Just fill out the form and our team will get back to you as soon as possible.
                     </p>
                     <ul>
-                        <li>✉️Email: slnsoft-tech@gmail.com</li>
+                        <li>✉️Email: slnsofttechamp@gmail.com</li>
                         <br />
                         <li>📍Premium Honda showroom opposite <br />Amarapuram-515281</li>
                     </ul>
